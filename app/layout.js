@@ -20,6 +20,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <div className="bg-yellow-300 text-black text-center py-2 font-medium">
+    🚧 Work in Progress, things might look unfinished 🚧
+        </div>
         {children}
       </body>
     </html>
